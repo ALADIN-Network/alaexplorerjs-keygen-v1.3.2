@@ -1,17 +1,17 @@
-<!--[![Build Status](https://travis-ci.org/ALAIO/alaexplorerjs-keygen-v1.3.2.svg?branch=master)](https://travis-ci.org/ALAIO/alaexplorerjs-keygen-v1.3.2)-->
-[![NPM](https://img.shields.io/npm/v/alaexplorerjs-keygen-v1.3.2.svg)](https://www.npmjs.org/package/alaexplorerjs-keygen-v1.3.2)
+<!--[![Build Status](https://travis-ci.org/ALAIO/alakeygen1.svg?branch=master)](https://travis-ci.org/ALAIO/alakeygen1)-->
+[![NPM](https://img.shields.io/npm/v/alakeygen1.svg)](https://www.npmjs.org/package/alakeygen1)
 
 # Repository
 
 Provides hierarchical deterministic key generation, storage, and management.
 
-General purpose cryptography is found in [alaexplorerjs-ecc-v4.0.1](http://github.com/ALADIN-Network/alaexplorerjs-ecc-v4.0.1) library.
+General purpose cryptography is found in [ala-ecc4](http://github.com/ALADIN-Network/ala-ecc4) library.
 
 ### Usage
 
 ```javascript
-let {Keystore, Keygen} = require('alaexplorerjs-keygen-v1.3.2')
-Ala = require('alaexplorerjs-v4.0.2')
+let {Keystore, Keygen} = require('alakeygen1')
+Ala = require('alaexplorerjs4')
 
 sessionConfig = {
   timeoutInMin: 30,
@@ -52,15 +52,15 @@ Use Node v8+ (updates `package-lock.json`)
 # Browser
 
 ```bash
-git clone https://github.com/ALADIN-Network/alaexplorerjs-keygen-v1.3.2.git
-cd alaexplorerjs-keygen-v1.3.2
+git clone https://github.com/ALADIN-Network/alakeygen1.git
+cd alakeygen1
 npm install
 npm run build
-# builds: ./dist/alaexplorerjs-keygen-v1.3.2.js
+# builds: ./dist/alakeygen1.js
 ```
 
 ```html
-<script src="alaexplorerjs-keygen-v1.3.2.js"></script>
+<script src="alakeygen1.js"></script>
 <script>
 //kos.Keystore
 //kos.Keygen

@@ -1,6 +1,6 @@
 const assert = require('assert')
 
-const {PrivateKey, PublicKey} = require('alaexplorerjs-ecc-v4.0.1')
+const {PrivateKey, PublicKey} = require('ala-ecc4')
 
 module.exports = {
   keyType,

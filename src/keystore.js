@@ -1,8 +1,8 @@
 /** @module Keystore */
 
 const assert = require('assert')
-const {PrivateKey, Signature} = require('alaexplorerjs-ecc-v4.0.1')
-const ecc = require('alaexplorerjs-ecc-v4.0.1')
+const {PrivateKey, Signature} = require('ala-ecc4')
+const ecc = require('ala-ecc4')
 const minimatch = require('minimatch')
 
 const Keygen = require('./keygen')
@@ -694,11 +694,11 @@ function Keystore(accountName, config = {}) {
   }
 
   /**
-    Integration for 'alaexplorerjs-v4.0.2' ..
+    Integration for 'alaexplorerjs4' ..
 
     Call keyProvider with no parameters or with a specific keyPathMatcher
     pattern to get an array of public keys in this key store.  A library
-    like alaexplorerjs-v4.0.2 may be provided these available public keys to alad
+    like alaexplorerjs4 may be provided these available public keys to alad
     get_required_keys for filtering and to determine which private keys are
     needed to sign a given transaction.
 
@@ -716,7 +716,7 @@ function Keystore(accountName, config = {}) {
     wif private keys for the provided pubkeys argument (also filtered using
     keyPathMatcher).
 
-    @see https://github.com/ALADIN-Network/alaexplorerjs-v4.0.2
+    @see https://github.com/ALADIN-Network/alaexplorerjs4
   */
   function keyProvider({keyPathMatcher = '**', pubkeys} = {}) {
     keepAlive()

@@ -2,7 +2,7 @@
 
 const assert = require('assert')
 
-const {PrivateKey} = require('alaexplorerjs-ecc-v4.0.1')
+const {PrivateKey} = require('ala-ecc4')
 const validate = require('./validate')
 
 module.exports = {

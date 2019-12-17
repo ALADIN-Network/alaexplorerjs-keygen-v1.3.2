@@ -18,7 +18,7 @@
   (5JMx76CTUTXxpAbwAqGMMVzSeJaP5UVTT5c2uobcpaMUdLAphSp)</p>
 </dd>
 <dt><a href="#privateKey">privateKey</a> : <code>object</code></dt>
-<dd><p>Private key object from alaexplorerjs-ecc-v4.0.1.</p>
+<dd><p>Private key object from ala-ecc4.</p>
 </dd>
 <dt><a href="#masterPrivateKey">masterPrivateKey</a> : <code>string</code></dt>
 <dd><p>Master Private Key.  Strong random key used to derive all other key types.
@@ -304,11 +304,11 @@ Keep alive (prevent expiration).  Called automatically if Uri navigation
 <a name="module_Keystore..Keystore..keyProvider"></a>
 
 #### Keystore~keyProvider(param) ⇒ <code>Array.&lt;(pubkey\|wif)&gt;</code>
-Integration for 'alaexplorerjs-v4.0.2' ..
+Integration for 'alaexplorerjs4' ..
 
     Call keyProvider with no parameters or with a specific keyPathMatcher
     pattern to get an array of public keys in this key store.  A library
-    like alaexplorerjs-v4.0.2 may be provided these available public keys to alad
+    like alaexplorerjs4 may be provided these available public keys to alad
     get_required_keys for filtering and to determine which private keys are
     needed to sign a given transaction.
 
@@ -324,7 +324,7 @@ Integration for 'alaexplorerjs-v4.0.2' ..
 - <code>path</code> Error `login with your $ key`
 - <code>key</code> Error `missing public key $`
 
-**See**: https://github.com/ALADIN-Network/alaexplorerjs-v4.0.2  
+**See**: https://github.com/ALADIN-Network/alaexplorerjs4  
 
 | Param | Type | Default | Description |
 | --- | --- | --- | --- |
@@ -396,7 +396,7 @@ Public Key (ALA8dM36QedcUfPTNF7maThtRqHP5xvCqMsYiHUz1Rz7sPfhvCYuo)
 <a name="privateKey"></a>
 
 ## privateKey : <code>object</code>
-Private key object from alaexplorerjs-ecc-v4.0.1.
+Private key object from ala-ecc4.
 
 **Kind**: global typedef  
 <a name="masterPrivateKey"></a>

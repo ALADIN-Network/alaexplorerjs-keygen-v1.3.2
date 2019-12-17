@@ -1,5 +1,5 @@
 {
-  "name": "alaexplorerjs-keygen-v1.3.2",
+  "name": "alakeygen1",
   "version": "1.3.2",
   "description": "General purpose library for private key storage and key management.",
   "main": "lib/index.js",
@@ -14,36 +14,36 @@
     "build": "npm run docs && npm run build_browser",
     "docs": "jsdoc2md src/keystore.js src/keygen.js src/jsdoc-types.js > API.md",
     "build_lib": "babel src --out-dir lib",
-    "build_browser": "npm run build_lib && mkdir -p dist && browserify -o dist/alaexplorerjs-keygen-v1.3.2.js -s kos lib/index.js",
+    "build_browser": "npm run build_lib && mkdir -p dist && browserify -o dist/alakeygen1.js -s kos lib/index.js",
     "build_browser_test": "npm run build_lib && mkdir -p dist && browserify -o dist/mocha-test.js lib/*.test.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ALADIN-Network/alaexplorerjs-keygen-v1.3.2.git"
+    "url": "git+https://github.com/ALADIN-Network/alakeygen1.git"
   },
   "keywords": [
-    "ALA",
+    "ALADIN",
     "Blockchain"
   ],
   "author": "jamesc",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ALADIN-Network/alaexplorerjs-keygen-v1.3.2/issues"
+    "url": "https://github.com/ALADIN-Network/alakeygen1/issues"
   },
-  "homepage": "https://github.com/ALADIN-Network/alaexplorerjs-keygen-v1.3.2#readme",
+  "homepage": "https://github.com/ALADIN-Network/alakeygen1#readme",
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.0",
     "babel-preset-es2015": "^6.24.1",
     "browserify": "^14.4.0",
     "coveralls": "^3.0.0",
-    "alaexplorerjs-v4.0.2": "^4.0.2",
+    "alaexplorerjs4": "^4.0.2",
     "istanbul": "^1.1.0-alpha.1",
     "jsdoc-to-markdown": "^3.0.4",
     "mocha": "^3.4.2"
   },
   "dependencies": {
-    "alaexplorerjs-ecc-v4.0.1": "^4.0.1",
+    "ala-ecc4": "^4.0.1",
     "history": "^4.7.2",
     "localStorage": "^1.0.3",
     "minimatch": "^3.0.4"

@@ -1,7 +1,7 @@
 const Keystore = require('./keystore')
 const Keygen = require('./keygen')
 
-const ecc = require('alaexplorerjs-ecc-v4.0.1')
+const ecc = require('ala-ecc4')
 
 module.exports = {
   Keystore,

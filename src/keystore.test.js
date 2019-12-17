@@ -1,8 +1,8 @@
 /* eslint-env mocha */
 const assert = require('assert')
 const {accountPermissions, checkKeySet} = require('./test-utils.js')
-const {PrivateKey, Signature} = require('alaexplorerjs-ecc-v4.0.1')
-const ecc = require('alaexplorerjs-ecc-v4.0.1')
+const {PrivateKey, Signature} = require('ala-ecc4')
+const ecc = require('ala-ecc4')
 const config = require('./config')
 
 const Keystore = require('./keystore.js')

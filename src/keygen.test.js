@@ -2,7 +2,7 @@
 const assert = require('assert')
 const {accountPermissions, checkKeySet} = require('./test-utils.js')
 
-const {PrivateKey} = require('alaexplorerjs-ecc-v4.0.1')
+const {PrivateKey} = require('ala-ecc4')
 const Keygen = require('./keygen')
 
 describe('Keygen', () => {

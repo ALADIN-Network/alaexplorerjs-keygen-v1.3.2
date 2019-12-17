@@ -13,7 +13,7 @@
 */
 
 /**
-  Private key object from alaexplorerjs-ecc-v4.0.1.
+  Private key object from ala-ecc4.
 
   @typedef {object} privateKey
 */
